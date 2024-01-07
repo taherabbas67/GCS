@@ -3,7 +3,7 @@ import time
 
 # Connect to the Vehicle
 print("Connecting to vehicle on: 'your USB port'")
-vehicle = connect('/dev/tty.URT0', wait_ready=True)  # Change '/dev/ttyUSB0' to the appropriate USB port that is /dev/tty.URT0 in this device
+vehicle = connect('/dev/tty.usbmodem14201', wait_ready=True)  # Change '/dev/ttyUSB0' to the appropriate USB port that is /dev/tty.URT0 in this device
 
 # Get some vehicle attributes (state)
 print("Get some vehicle attribute values:")
